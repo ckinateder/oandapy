@@ -7,7 +7,7 @@ Install
 
 Using pip:
 
-    $ pip install git+https://github.com/oanda/oandapy.git
+    $ pip install git+https://github.com/ckinateder/oandapy.git
 
 oandapy depends on python-requests, which will be installed automatically.
 
