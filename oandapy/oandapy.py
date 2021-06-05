@@ -19,7 +19,7 @@ class EndpointsMixin(object):
         """ Get an instrument list
         Docs: http://developer.oanda.com/rest-live/rates
         """
-        params['accountID'] = account_id
+        params['accountId'] = account_id
         endpoint = 'v1/instruments'
         return self.request(endpoint, params=params)
 
